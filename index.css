@@ -1,0 +1,33 @@
+*:not(#navbar) {
+    text-align: center;
+  }
+  
+  .soFancy:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out 0ms;
+  }
+  
+  @media (min-width: 480px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #navbar {
+      text-align: left;
+    }
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-me-images {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: space-around;
+  }
