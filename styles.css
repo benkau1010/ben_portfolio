@@ -5,14 +5,22 @@
 *:not(#navbar) {
     text-align: center;
 }
-  
+
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
 .soFancy:hover {
   transform: scale(1.2);
   transition: transform .5s ease-in-out 0ms;
 }
 
-h1 {
-  margin: 0;
+.title-image {
+  height: calc()
 }
 
 @media (min-width: 480px) {
@@ -27,6 +35,9 @@ h1 {
   display: flex;
   position: fixed;
   top: 0;
+  z-index: 100;
+  background-color: red;
+  width: 100vw;
 }
 
 .project-links {
