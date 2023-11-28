@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 *:not(#navbar) {
     text-align: center;
 }
@@ -5,6 +9,10 @@
 .soFancy:hover {
   transform: scale(1.2);
   transition: transform .5s ease-in-out 0ms;
+}
+
+h1 {
+  margin: 0;
 }
 
 @media (min-width: 480px) {
