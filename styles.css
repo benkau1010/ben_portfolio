@@ -97,7 +97,7 @@ iframe {
   justify-content: center;
 }
 
-.tile img {
+img {
   border-radius: 10%;
   max-height: 300px;
 }
