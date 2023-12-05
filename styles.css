@@ -86,3 +86,26 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'PT Sans', sans-serif;
 }
+
+iframe {
+  border-radius: 10%;
+}
+
+.about-me-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tile img {
+  border-radius: 10%;
+  max-height: 300px;
+}
+
+.tile {
+  padding: 20px;
+}
+
+figcaption {
+  width: 25% 25%;
+}
